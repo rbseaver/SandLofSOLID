@@ -19,6 +19,11 @@ namespace SandLOfSOLID.Lib
 	        }
 	        Weapons.Add(weapon);
 	    }
+
+	    public void RemoveWeapon(Weapon weapon)
+	    {
+	        Weapons.Remove(weapon);
+	    }
 	}
 
     public class NotEnoughArmsException : Exception
