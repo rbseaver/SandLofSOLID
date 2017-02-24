@@ -9,5 +9,10 @@ namespace SandLOfSOLID.Lib
 		public int Strength { get; set; }
 		public int Endurance { get; set; }
 		public int Attack { get; set; }
+
+	    public void AddWeapon(Weapon weapon)
+	    {
+	        Weapons.Add(weapon);
+	    }
 	}
 }
