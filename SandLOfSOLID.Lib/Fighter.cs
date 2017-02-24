@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TheAllInOne
+namespace SandLOfSOLID.Lib
 {
 	public class Fighter
 	{

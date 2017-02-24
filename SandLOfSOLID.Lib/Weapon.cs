@@ -1,4 +1,4 @@
-﻿namespace TheAllInOne
+﻿namespace SandLOfSOLID.Lib
 {
 	public class Weapon
 	{
