@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace SandLOfSOLID.Lib
 {
@@ -12,7 +13,19 @@ namespace SandLOfSOLID.Lib
 
 	    public void AddWeapon(Weapon weapon)
 	    {
+	        if (weapon.HandsToHold > Arms)
+	        {
+	            throw new NotEnoughArmsException("Not enough arms, yo!");
+	        }
 	        Weapons.Add(weapon);
 	    }
 	}
+
+    public class NotEnoughArmsException : Exception
+    {
+        public NotEnoughArmsException(string message) : base(message)
+        {
+            
+        }
+    }
 }
