@@ -3,8 +3,8 @@
 namespace TheAllInOne
 {
 	/// <summary>
-	/// SOLD Round 1!
-	/// Create a new Library that breaks out these below int classes using Single Object Responsiblity and Liskov Substitution Principal
+	/// SOLID Round 1!
+	/// Create a new Library that breaks out these below into classes using Single Object Responsiblity and Liskov Substitution Principal
 	/// 1. make these things!
 	/// 2. weapons should be able to added to a character. Note... HandToHold says how many they can have too
 	/// 3. you should be able to remove weapons too.
