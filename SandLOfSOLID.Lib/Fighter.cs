@@ -5,24 +5,32 @@ namespace SandLOfSOLID.Lib
 {
 	public class Fighter
 	{
+        private List<Weapon> _weapons = new List<Weapon>();
+
 		public int Arms { get; set; }
-		public List<Weapon> Weapons { get; set; }
+		public List<Weapon> Weapons {
+            get { return _weapons; }
+		    set { _weapons = value; }
+		}
 		public int Strength { get; set; }
 		public int Endurance { get; set; }
 		public int Attack { get; set; }
 
 	    public void AddWeapon(Weapon weapon)
 	    {
-	        if (weapon.HandsToHold > Arms)
+	        int armsAvailable = Arms;
+	        armsAvailable -= weapon.HandsToHold;
+
+	        if (armsAvailable < weapon.HandsToHold)
 	        {
-	            throw new NotEnoughArmsException("Not enough arms, yo!");
+	            throw new NotEnoughArmsException("Not enough arms, dawg!");
 	        }
-	        Weapons.Add(weapon);
+            _weapons.Add(weapon);
 	    }
 
 	    public void RemoveWeapon(Weapon weapon)
 	    {
-	        Weapons.Remove(weapon);
+	        _weapons.Remove(weapon);
 	    }
 	}
 
