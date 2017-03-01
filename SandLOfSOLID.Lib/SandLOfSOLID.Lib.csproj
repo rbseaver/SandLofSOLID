@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fighter.cs" />
+    <Compile Include="IDamage.cs" />
+    <Compile Include="IFighter.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="NotEnoughArmsException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

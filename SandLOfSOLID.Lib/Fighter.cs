@@ -1,17 +1,22 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace SandLOfSOLID.Lib
 {
-	public class Fighter
+	public class Fighter : IFighter
 	{
-		private List<Weapon> _weapons = new List<Weapon>();
+	    private List<Weapon> _weapons;
+
+	    public Fighter()
+	    {
+	        _weapons = new List<Weapon>();
+	    }
 
 		public int Arms { get; set; }
 
-		public List<Weapon> Weapons
+		public IList<Weapon> Weapons
 		{
-			get { return _weapons; }
-			set { _weapons = value; }
+			get { return new List<Weapon>(_weapons); }
 		}
 
 		public int Strength { get; set; }
@@ -36,5 +41,17 @@ namespace SandLOfSOLID.Lib
 		{
 			_weapons.Remove(weapon);
 		}
-	}
+
+
+	    public int Damage()
+	    {
+	        if (Weapons.Count == 0)
+	        {
+	            return Attack;
+	        }
+
+	        return Attack + Weapons.Sum(w => w.HitPower);
+	    }
+
+    }
 }

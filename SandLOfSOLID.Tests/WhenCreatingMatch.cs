@@ -1,5 +1,7 @@
-﻿using NUnit.Framework;
+﻿using Moq;
+using NUnit.Framework;
 using SandLOfSOLID.Lib;
+using Match = SandLOfSOLID.Lib.Match;
 
 namespace SandLOfSOLID.Tests
 {
@@ -24,5 +26,24 @@ namespace SandLOfSOLID.Tests
 
 			Assert.That(match.Fighters.Count, Is.EqualTo(2));
 		}
+
+        [Test]
+	    public void ItShouldReturnWinner()
+	    {
+	        var match = new Match();
+
+	        var turd = new Mock<IFighter>();
+	        turd.Setup(t => t.Endurance).Returns(5);
+	        turd.Setup(t => t.Damage()).Returns(4);
+
+            var turdBro = new Mock<IFighter>();
+            turdBro.Setup(t => t.Endurance).Returns(4);
+            turdBro.Setup(t => t.Damage()).Returns(4);
+
+	        var expected = match.Stage(turd.Object, turdBro.Object);
+
+            Assert.That(turd.Object, Is.EqualTo(expected));
+
+	    }
 	}
 }
