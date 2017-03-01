@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace SandLOfSOLID.Lib
 {
@@ -19,6 +20,11 @@ namespace SandLOfSOLID.Lib
 		public void AddFighter(Fighter fighter)
 		{
 			_fighters.Add(fighter);
+		}
+
+		public void Fight()
+		{
+			throw new NotImplementedException("need fighters to do shtuff");
 		}
 	}
 }
