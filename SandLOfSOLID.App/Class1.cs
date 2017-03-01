@@ -1,14 +1,14 @@
-﻿using System.Collections.Generic;
-using SandLOfSOLID.Lib;
+﻿using SandLOfSOLID.Lib;
+using System.Collections.Generic;
 
 namespace TheAllInOne
 {
 	/// <summary>
 	/// SOLID Round 1!
 	/// Create a new Library that breaks out these below into classes using Single Object Responsiblity and Liskov Substitution Principal
-	/// 1. make these things!
-	/// 2. weapons should be able to added to a character. Note... HandToHold says how many they can have too
-	/// 3. you should be able to remove weapons too.
+	/// 1. make these things! -- Done!
+	/// 2. weapons should be able to added to a character. Note... HandToHold says how many they can have too -- Done!
+	/// 3. you should be able to remove weapons too. -- Done!
 	/// 4. Create a fight method that allows you to match them up (2 players at a time... like Mortal Kombat)
 	/// 5. fight method should be able to take account weapon info and character info... basics of strength from both.
 	/// Bonus using all the characteristics of the weapons and characters to determine the winner (HitPower {Speed of the attack}, Strength, ENdurance, Attack {their default character Power}
