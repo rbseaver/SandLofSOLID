@@ -5,16 +5,16 @@ namespace SandLOfSOLID.Lib
 {
 	internal class Match
 	{
-		private List<Fighter> _fighters = new List<Fighter>();
+		private List<Fighter> _fighters;
 
 		public Match()
 		{
+			_fighters = new List<Fighter>();
 		}
 
 		public List<Fighter> Fighters
 		{
 			get { return _fighters; }
-			set { _fighters = value; }
 		}
 
 		public void AddFighter(Fighter fighter)
