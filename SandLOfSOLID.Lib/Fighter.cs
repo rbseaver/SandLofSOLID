@@ -4,7 +4,7 @@ using System.Linq;
 namespace SandLOfSOLID.Lib
 {
 	public class Fighter : IFighter
-	{
+    {
 	    private List<Weapon> _weapons;
 
 	    public Fighter()
