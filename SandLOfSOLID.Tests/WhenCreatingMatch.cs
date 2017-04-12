@@ -1,9 +1,9 @@
 ﻿using Moq;
 using NUnit.Framework;
-using SandLOfSOLID.Lib;
-using Match = SandLOfSOLID.Lib.Match;
+using SOLID.Lib;
+using Match = SOLID.Lib.Match;
 
-namespace SandLOfSOLID.Tests
+namespace SOLID.Tests
 {
 	[TestFixture]
 	public class WhenCreatingMatch

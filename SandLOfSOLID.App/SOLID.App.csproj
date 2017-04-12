@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SandLOfSOLID.Lib\SandLOfSOLID.Lib.csproj">
+    <ProjectReference Include="..\SandLOfSOLID.Lib\SOLID.Lib.csproj">
       <Project>{69a921e6-4cda-45ce-ac4c-d71db8981619}</Project>
-      <Name>SandLOfSOLID.Lib</Name>
+      <Name>SOLID.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

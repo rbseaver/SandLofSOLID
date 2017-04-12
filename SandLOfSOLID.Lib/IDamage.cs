@@ -1,4 +1,4 @@
-﻿namespace SandLOfSOLID.Lib
+﻿namespace SOLID.Lib
 {
     public interface IDamage
     {

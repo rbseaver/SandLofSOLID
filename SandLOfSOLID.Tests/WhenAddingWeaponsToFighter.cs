@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using SandLOfSOLID.Lib;
+using SOLID.Lib;
 
-namespace SandLOfSOLID.Tests
+namespace SOLID.Tests
 {
 	[TestFixture]
 	public class WhenAddingWeaponsToFighter
