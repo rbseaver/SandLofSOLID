@@ -12,7 +12,7 @@ namespace TheAllInOne
     /// 5. fight method should be able to take account weapon info and character info... basics of strength from both.
     /// Bonus using all the characteristics of the weapons and characters to determine the winner (HitPower {Speed of the attack}, Strength, ENdurance, Attack {their default character Power}
     /// 
-    /// SOLID Rount 2!
+    /// SOLID Round 2!
     /// Interface segregation. It allows one object to be represented as multiple things. In the example here, hopefully you see a few come from this.
     /// 1. It has been started, but Implement IDamage
     ///     a. should include the Damage method (which should change to Inflict)
