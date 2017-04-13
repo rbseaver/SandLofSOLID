@@ -44,7 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SandLOfSOLID.Lib\SOLID.Lib.csproj">
+    <ProjectReference Include="..\SOLID.Lib\SOLID.Lib.csproj">
       <Project>{69a921e6-4cda-45ce-ac4c-d71db8981619}</Project>
       <Name>SOLID.Lib</Name>
     </ProjectReference>

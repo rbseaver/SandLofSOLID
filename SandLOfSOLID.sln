@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.App", "SandLOfSOLID.App\SOLID.App.csproj", "{CDD80EFB-F281-48D8-B1C7-2FC482009BA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.App", "SOLID.App\SOLID.App.csproj", "{CDD80EFB-F281-48D8-B1C7-2FC482009BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Lib", "SandLOfSOLID.Lib\SOLID.Lib.csproj", "{69A921E6-4CDA-45CE-AC4C-D71DB8981619}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Lib", "SOLID.Lib\SOLID.Lib.csproj", "{69A921E6-4CDA-45CE-AC4C-D71DB8981619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Tests", "SandLOfSOLID.Tests\SOLID.Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Tests", "SOLID.Tests\SOLID.Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
