@@ -14,12 +14,12 @@ namespace TheAllInOne
     /// 
     /// SOLID Rount 2!
     /// Interface segregation. It allows one object to be represented as multiple things. In the example here, hopefully you see a few come from this.
-    /// 1. It has been started, but Implement IDammage
-    ///     a. should include the Dammage method (which should change to Inflict), and a 
-    ///     b. Draining method called Inflict. It should pass in IDammage item. This method should be what drains the fighter's endurance.
+    /// 1. It has been started, but Implement IDamage
+    ///     a. should include the Damage method (which should change to Inflict)
+    ///     b. Draining method called Inflict. It should pass in IDamage item. This method should be what drains the fighter's endurance.
     /// 2. Implement new weapons... a laser and a machine gun. (follow up if Liskov)
-    ///     a. laser is a more powerful weapon, that can only fire if it has enough charge
-    ///     b. machine gun can only fire if it has bullets in its magazine clip
+    ///     a. laser is a more powerful weapon, that can only fire if it has enough charge, which can store up to 5 charges max (each fire subtracts 1)
+    ///     b. machine gun can only fire if it has bullets in its magazine clip, which can store up to 500 bullets (each fire subtracts 25 bullets)
     ///     c. both weapons can have an alternative hit, which for now is a lesser impacting blow
     ///     d. guns should be able to add ammo/power up and also subtract
     ///     e. hints... guns will probably have an interface too
@@ -36,6 +36,8 @@ namespace TheAllInOne
     ///     w.nunchaku
     ///     w.laser
     ///     w.machine gun
+    ///  4. update the match file to use IDamage for the actual hit method.
+    ///     a. note, this will change the strategy from the fighters being immutable to being mutable... no worries! :)
     /// </summary>
     public class TheExamplesThatAreNeverReferenced
     {
