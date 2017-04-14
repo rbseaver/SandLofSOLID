@@ -7,8 +7,8 @@
     <ProjectGuid>{8EDF4429-251A-416D-BB68-93F227191BCF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SandLOfSOLID.Tests</RootNamespace>
-    <AssemblyName>SandLOfSOLID.Tests</AssemblyName>
+    <RootNamespace>SOLID.Tests</RootNamespace>
+    <AssemblyName>SOLID.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -52,9 +52,9 @@
     <Compile Include="WhenRemovingWeaponsFromFighter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SandLOfSOLID.Lib\SandLOfSOLID.Lib.csproj">
+    <ProjectReference Include="..\SOLID.Lib\SOLID.Lib.csproj">
       <Project>{69a921e6-4cda-45ce-ac4c-d71db8981619}</Project>
-      <Name>SandLOfSOLID.Lib</Name>
+      <Name>SOLID.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

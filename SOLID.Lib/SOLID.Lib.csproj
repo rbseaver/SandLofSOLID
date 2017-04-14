@@ -7,8 +7,8 @@
     <ProjectGuid>{69A921E6-4CDA-45CE-AC4C-D71DB8981619}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SandLOfSOLID.Lib</RootNamespace>
-    <AssemblyName>SandLOfSOLID.Lib</AssemblyName>
+    <RootNamespace>SOLID.Lib</RootNamespace>
+    <AssemblyName>SOLID.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fighter.cs" />
+    <Compile Include="FighterHealthComparer.cs" />
     <Compile Include="IDamage.cs" />
     <Compile Include="IFighter.cs" />
     <Compile Include="Match.cs" />

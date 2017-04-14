@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SandLOfSOLID.Lib
+namespace SOLID.Lib
 {
 	public class NotEnoughArmsException : Exception
 	{

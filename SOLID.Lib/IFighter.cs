@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SandLOfSOLID.Lib
+namespace SOLID.Lib
 {
     public interface IFighter
     {
