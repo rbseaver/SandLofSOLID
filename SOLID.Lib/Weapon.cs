@@ -7,7 +7,7 @@ namespace SOLID.Lib
 		public int HandsToHold { get; set; }
 		public int HitPower { get; set; }
 
-        public void Damage()
+        public void Inflict(IDamage damage)
         {
             throw new NotImplementedException();
         }

@@ -2,6 +2,6 @@
 {
     public interface IDamage
     {
-        void Damage();
+        void Inflict(IDamage damage);
     }
 }
